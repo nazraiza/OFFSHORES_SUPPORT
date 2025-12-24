@@ -1,0 +1,11 @@
+# --- during setup (allow /setup so you can create admin) ---
+
+Options -Indexes
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "no-referrer-when-downgrade"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Permissions-Policy "geolocation=(), microphone=()"
+</IfModule>
