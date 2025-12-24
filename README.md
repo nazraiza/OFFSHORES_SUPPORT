@@ -45,7 +45,7 @@ OFFSHORES_SUPPORT/
 
 Clone the repository:
 
-git clone https://github.com/yourusername/OFFSHORES_SUPPORT.git
+git clone https://github.com/nazraiza/OFFSHORES_SUPPORT.git
 
 
 Navigate to the project directory:
